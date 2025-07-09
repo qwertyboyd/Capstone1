@@ -1,0 +1,71 @@
+ <style>
+        body {
+    /* ... existing properties ... */
+    background-image: url('/static/images/weather.jpg'); /* Specifies the image path */
+    background-size: cover; /* Scales the image to cover the entire body */
+    background-position: center; /* Centers the image within the body */
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    background-attachment: fixed; /* Keeps the background image still when scrolling */
+}
+
+        .sign-in-text {
+            font-family: 'Arial', sans-serif;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .input-label {
+            font-family: 'Arial', sans-serif;
+            font-size: 15px;
+            color: #333;
+            opacity: 0.8;
+            line-height: 1.5;
+            font-weight: 600;
+
+        }
+
+        .input-text {
+            font-family: 'Arial', 2-serif;
+            font-size: 15px;
+            line-height: 1.5;
+            padding: 10px;
+        }
+
+        .login-btn {
+            font-family: 'Arial', sans-serif;
+            font-size: 14px;
+            letter-spacing: 1px;
+            line-height: 1.5;
+            padding: 12px;
+        }
+
+        .form-container {
+            width: 100%;
+            max-width: 400px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+        }
+
+        .input-field {
+            margin-bottom: 20px;
+         input[autocomplete="username"]::placeholder {
+         font-style: italic;
+         }
+         input[autocomplete="current-password"]::placeholder {
+         font-style: italic;
+         }
+        }
+
+        img[class="logo"], img[src="/static/images/snsu.jpg"] {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        ]
+
+    </style>
